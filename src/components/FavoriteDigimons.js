@@ -18,34 +18,6 @@ class FavoriteDigimons extends React.Component {
     }
 
 
-
-    // componentDidMount = async () => {
-
-    //     const digimons = await axios.get(`${this.state.serverLink}/favoritedigimons`);
-    //     this.setState({
-
-    //         digimons: digimons.data,
-    //         showDigimonsFav: true,
-
-
-
-    //     })
-
-
-
-
-    // }
-
-
-    // deleteFavFun = async (index) => {
-
-
-    //     await axios.delete(`${this.state.serverLink}/deleteDigimons/${index}`);
-
-
-
-    // }
-
     render() {
         return (
             <>
