@@ -33,21 +33,6 @@ class Main extends React.Component {
 
 
     }
-
-
-
-    // addFavFun = async (digimon) => {
-
-
-    //     await axios.post(`${this.state.serverLink}/addDigimons`);
-
-
-    // }
-
-
-
-
-
     render() {
         return (
             <>
