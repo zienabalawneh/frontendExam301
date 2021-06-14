@@ -22,35 +22,6 @@ class FavoriteDigimons extends React.Component {
         return (
             <>
 
-
-{/* 
-                        {this.state.showDigimonsFav &&
-
-                            this.state.digimons.map((digimon, idx) => {
-                            
-                                    <Card style={{ width: '400px',height:'400px' }} key={idx}>
-                                        <Card.Img variant="top" src={digimon.img} />
-                                        <Card.Body>
-                                            <Card.Title>{digimon.name}</Card.Title>
-                                            <Card.Text>
-                                                {digimon.level}
-                                            </Card.Text>
-                                             <Button variant="primary" onClick={() => this.deleteFavFun(idx)}> delete </Button>
-                                            
-
-                                        </Card.Body>
-                                    </Card>
-                             
-                            })
-
- 
-
-
-
-
-
-                        }*/}
-
               
             </>
         )
